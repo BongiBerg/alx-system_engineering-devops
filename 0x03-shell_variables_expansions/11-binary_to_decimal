@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=10;ibase=BINARY;101" | bc
+echo "$((BINARY#101010101))"
